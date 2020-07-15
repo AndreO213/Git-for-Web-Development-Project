@@ -164,4 +164,9 @@ It becomes fixed and will not move
 
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+div, p, and address. span and img. button.
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+    the box model consists of content,padding,border, and margin. You can assign a width to all elements with box-sizing.

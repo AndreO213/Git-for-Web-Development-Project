@@ -51,7 +51,7 @@ multiple times
 
     13. How do I get my link to open in a new tab?
 
-right click on the link and click on new tab
+add the link to the href
 
     14. What is the alt attribute in the image tag used for? 
 
@@ -59,7 +59,7 @@ it is used to describe the image so the screen reader can read it to anyone with
 
     15. How do I reference an id?
 
-in css yu can call an id with #
+in css you can call an id with #
 
     16. What is the difference between a section and a div
 
@@ -79,7 +79,7 @@ a class would be used when you want the same style on multiple elements and an i
 
     20. How do we select classes in CSS?
 
-period and then name of class
+period and the name of class Ex. (.class-name{})
 
     21. How do we select a p element with a single class of “human””?
 
@@ -87,11 +87,11 @@ period and then name of class
 
     22. What is a parent child selector? When would this be useful? 
 
-a parent child selector is when you call two elements that correspond with each other and use a comma. It helps to be more specific in CSS.
+a parent child selector is when you call two elements that correspond with each other. It helps to be more specific in CSS.
 
     23. How do you select all links within a div with the class of sidebar?
 
-.sidebar {}
+.sidebar link {}
 
     24. What is a pseudo selector?
 
@@ -107,7 +107,7 @@ letter-spacing
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
 
--uppercase, lowercase, capitalize
+-text-decoration: uppercase, lowercase, capitalize
 
     28. How do I add a 1px border around my div that is dotted and black?
 
@@ -169,4 +169,4 @@ div, p, and address. span and img. button.
 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
-    the box model consists of content,padding,border, and margin. You can assign a width to all elements with box-sizing.
+    the box model consists of content,padding,border, and margin. You can assign a width to any of the elements with box-sizing.
